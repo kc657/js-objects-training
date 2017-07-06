@@ -11,6 +11,7 @@
     "l": 1,
     "e": 1
   }
+
   ```
 
   Bonuses
@@ -27,7 +28,21 @@
       "e": 0.2
     }
     ```
-
 */
 
 // YOUR CODE HERE
+
+
+function letterCount(inputWord) {
+  var output = {};
+  var wordSpilt = inputWord.split('');
+  wordSpilt.forEach(function(element) {
+    if (output[element]) {
+      output[element] += 1;
+    } else {
+      output[element] = 1;
+    }
+  });
+
+  return output;
+}
