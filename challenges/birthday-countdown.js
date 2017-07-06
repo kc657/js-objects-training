@@ -34,3 +34,11 @@
 */
 
 // YOUR CODE HERE
+
+function daysUntilDate ("mm/dd/yyy") {
+  let peopleInfo = {
+    name: ,
+    dob: ,
+  }
+
+}
